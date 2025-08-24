@@ -47,12 +47,4 @@ BMICalc/
 
 ---
 
-✅ Steps to use this:  
-1. Copy the above content into a file named **`README.md`** in your project root.  
-2. Save the file.  
-3. Add & push it to GitHub:
 
-```bash
-git add README.md
-git commit -m "Add project README"
-git push
