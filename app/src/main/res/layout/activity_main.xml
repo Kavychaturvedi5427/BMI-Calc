@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/smoke_white"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Hi!👋"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/inter_normal"
+        />
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txt_welcome"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/inter_normal"
+        />
+
+    <EditText
+        android:id="@+id/height_ft"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints="0"
+        android:ems="8"
+        android:fontFamily="@font/inter_normal"
+        android:hint="@string/txt_height_ft"
+        android:inputType="number"
+        android:padding="7dp" />
+
+    <EditText
+        android:id="@+id/height_inc"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints="0"
+        android:ems="8"
+        android:fontFamily="@font/inter_normal"
+        android:hint="@string/txt_height_in"
+        android:inputType="number"
+        android:padding="7dp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints="0"
+        android:ems="8"
+        android:hint="@string/txt_weight"
+        android:fontFamily="@font/inter_normal"
+        android:inputType="number"
+        android:padding="7dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/SubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_btn"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/rounded_button"
+        android:elevation="8dp"
+        android:translationZ="4dp"
+        android:translationY="4dp"
+        android:padding="20dp"
+        />
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txt_result"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/inter_normal"
+        android:layout_margin="20sp"
+        />
+
+</LinearLayout>

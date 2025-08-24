@@ -1,0 +1,18 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Corner radius - used to define the radius  -->
+    <corners android:radius="13dp"/>   <!-- Rounded corners -->
+
+
+    <!-- Border (stroke) - used to define the outline of the border -->
+    <stroke
+        android:width="4dp"
+        android:color="@android:color/black"/>   <!-- Black border -->
+
+    <gradient
+        android:startColor="@color/smoke_white"
+        android:endColor="@color/white"
+        android:angle="45"/> <!-- diagonal gradient -->
+
+</shape>
