@@ -30,7 +30,7 @@ A simple **Android app** that calculates **Body Mass Index (BMI)** and gives a h
 ## Installation
 1. Clone the repo:  
    ```bash
-   git clone https://github.com/your-username/BMICalc.git
+   git clone https://github.com/Kavychaturvedi5427/BMI-Calc.git
 
 
 BMICalc/
