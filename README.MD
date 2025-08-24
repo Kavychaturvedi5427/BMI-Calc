@@ -15,8 +15,8 @@ A simple **Android app** that calculates **Body Mass Index (BMI)** and gives a h
 
 ## Screenshots
 
-<img src="screenshots/main_screen.png" alt="Main Screen" width="300" height="400"/>
-<img src="screenshots/result_screen.png" alt="Result Screen" width="300" height="400"/>
+<img src="screenshots/main_screen.png" alt="Main Screen" width="300" height="500"/>
+<img src="screenshots/result_screen.png" alt="Result Screen" width="300" height="500"/>
 
 
 ---
