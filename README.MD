@@ -12,10 +12,9 @@ A simple **Android app** that calculates **Body Mass Index (BMI)** and gives a h
 ---
 
 ## Screenshots
-## Screenshots
 
-![Main Screen]("C:\Users\ss320\OneDrive\Desktop\BMICalc\screenshot\Home.jpg")
-![Result Screen]("C:\Users\ss320\OneDrive\Desktop\BMICalc\screenshot\Result.jpg")
+![Main Screen](screenshots/main_screen.png)
+![Result Screen](screenshots/result_screen.png)
 
 ---
 
