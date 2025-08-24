@@ -14,8 +14,8 @@ A simple **Android app** that calculates **Body Mass Index (BMI)** and gives a h
 ## Screenshots
 ## Screenshots
 
-![Main Screen](screenshot/Home.jpeg)
-![Result Screen](screenshot/Result.jpeg)
+![Main Screen]("C:\Users\ss320\OneDrive\Desktop\BMICalc\screenshot")
+![Result Screen]("C:\Users\ss320\OneDrive\Desktop\BMICalc\screenshot")
 
 ---
 
@@ -44,5 +44,3 @@ BMICalc/
 ├─ .gitignore                              # Files/folders to ignore
 └─ README.md                               # This file
 
-
----
