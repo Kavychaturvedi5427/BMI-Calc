@@ -4,9 +4,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         EditText txt_weight=findViewById(R.id.weight);    // to get id of weight view
         Button Calc_button=findViewById(R.id.SubmitButton); // to get id of calculate button
         TextView Result=findViewById(R.id.Result);        // to get id of result button.
+        LinearLayout linLay=findViewById(R.id.Linear);
 
         Calc_button.setOnClickListener(new View.OnClickListener() {          // as soon as the button is clicked it will send the info that the button is clicked..
             @SuppressLint("SetTextI18n")
@@ -56,12 +59,17 @@ public class MainActivity extends AppCompatActivity {
                 // checking Whether Overweight, UnderWeight, Healthy....
                 if(bmi>25){
                     Result.setText("You are OverWeight.");
+                    // linLay.setBackgroundColor(getResource.getColor(R.color.smoke_red));  
+                    linLay.setBackgroundColor(ContextCompat.getColor(MainActivity.this, R.color.smoke_red));
+
                 }
                 else if (bmi<18){
                     Result.setText("You are UnderWeight.");
+                    linLay.setBackgroundColor(ContextCompat.getColor(MainActivity.this, R.color.smoke_yellow));
                 }
                 else {
                     Result.setText("You are Healthy.");
+                    linLay.setBackgroundColor(ContextCompat.getColor(MainActivity.this, R.color.smoke_green));
                 }
             }
         });

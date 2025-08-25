@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="smoke_white">#EFD3D3</color>
+    <color name="smoke_red">#F47171</color>
+    <color name="smoke_yellow">#F8E670</color>
+    <color name="smoke_green">#9AF670</color>
 </resources>
