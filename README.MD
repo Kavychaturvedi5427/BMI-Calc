@@ -1,3 +1,5 @@
+# BMI Calculator
+
 A simple **Android app** that calculates **Body Mass Index (BMI)** and gives a health assessment.
 
 ---
@@ -16,7 +18,6 @@ A simple **Android app** that calculates **Body Mass Index (BMI)** and gives a h
 <img src="screenshots/main_screen.png" alt="Main Screen" width="300" height="500"/>
 <img src="screenshots/result_screen.png" alt="Result Screen" width="300" height="500"/>
 
-
 ---
 
 ## Technologies Used
@@ -32,16 +33,16 @@ A simple **Android app** that calculates **Body Mass Index (BMI)** and gives a h
    ```bash
    git clone https://github.com/Kavychaturvedi5427/BMI-Calc.git
 
----
 ## Project Structure
+
 BMICalc/
 ├── app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/example/bmicalc/ # Java source code
-│ │ │ ├── res/
-│ │ │ │ ├── layout/ # XML layout files
-│ │ │ │ └── values/ # Colors, strings, styles
-│ └── build/ # Auto-generated build files (ignored in Git)
-├── .gitignore # Files/folders to ignore
-└── README.md # This file
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/bmicalc/   # Java source code
+│   │   │   ├── res/
+│   │   │   │   ├── layout/                 # XML layout files
+│   │   │   │   └── values/                 # Colors, strings, styles
+│   └── build/                              # Auto-generated build files (ignored in Git)
+├── .gitignore                              # Files/folders to ignore
+└── README.md                               # This file
