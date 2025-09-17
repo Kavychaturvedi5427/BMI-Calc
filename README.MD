@@ -34,13 +34,14 @@ A simple **Android app** that calculates **Body Mass Index (BMI)** and gives a h
 
 ---
 BMICalc/
-│
-├─ app/
-│  ├─ src/main/java/com/example/bmicalc/   # Java source code
-│  ├─ src/main/res/layout/                 # XML layout files
-│  ├─ src/main/res/values/                 # Colors, strings, styles
-│
-├─ build/                                  # Auto-generated build files (ignored in Git)
-├─ .gitignore                              # Files/folders to ignore
-└─ README.md                               # This file
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/bmicalc/   # Java source code
+│   │   │   ├── res/
+│   │   │   │   ├── layout/                 # XML layout files
+│   │   │   │   └── values/                 # Colors, strings, styles
+│   └── build/                              # Auto-generated build files (ignored in Git)
+├── .gitignore                              # Files/folders to ignore
+└── README.md                               # This file
 
