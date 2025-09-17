@@ -44,6 +44,7 @@ To get a local copy up and running, follow these simple steps.
 <br>
 
 ## 📂 Project Structure
+```text
 BMICalc/
 ├── app/
 │   ├── src/
@@ -67,3 +68,4 @@ BMICalc/
 │   └── build/                      # Auto-generated build files
 ├── .gitignore                      # Specifies untracked files to be ignored
 └── README.md                       # This file
+'''
