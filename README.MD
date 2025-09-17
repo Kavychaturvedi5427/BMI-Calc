@@ -35,7 +35,7 @@ A simple **Android app** that calculates **Body Mass Index (BMI)** and gives a h
 
 ## Project Structure
 
-BMICalc/
+'''BMICalc/
 ├── app/
 │   ├── src/
 │   │   ├── main/
@@ -45,4 +45,4 @@ BMICalc/
 │   │   │   │   └── values/                 # Colors, strings, styles
 │   └── build/                              # Auto-generated build files (ignored in Git)
 ├── .gitignore                              # Files/folders to ignore
-└── README.md                               # This file
+└── README.md                               # This file'''
