@@ -33,4 +33,15 @@ A simple **Android app** that calculates **Body Mass Index (BMI)** and gives a h
    git clone https://github.com/Kavychaturvedi5427/BMI-Calc.git
 
 ---
-<pre> ``` BMICalc/ ├── app/ │ ├── src/ │ │ ├── main/ │ │ │ ├── java/com/example/bmicalc/ # Java source code │ │ │ ├── res/ │ │ │ │ ├── layout/ # XML layout files │ │ │ │ └── values/ # Colors, strings, styles │ └── build/ # Auto-generated build files (ignored in Git) ├── .gitignore # Files/folders to ignore └── README.md # This file ``` </pre>
+## Project Structure
+BMICalc/
+├── app/
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/com/example/bmicalc/ # Java source code
+│ │ │ ├── res/
+│ │ │ │ ├── layout/ # XML layout files
+│ │ │ │ └── values/ # Colors, strings, styles
+│ └── build/ # Auto-generated build files (ignored in Git)
+├── .gitignore # Files/folders to ignore
+└── README.md # This file
